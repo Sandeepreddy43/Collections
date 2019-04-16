@@ -1,7 +1,7 @@
 package com.reg.collections.bus;
 
 public class Travel {
-	final String[] tList = { "Orange", "SRS", "Yatragenie", "Morning Star", "Kaveri","Kesineni", "APSRTC","KSRTC"  };
+	final String[] tList = { "Orange", "SRS", "Yatragenie", "MorningStar", "Kaveri","Kesineni", "APSRTC","KSRTC"  };
 	final String[] routeList = { "NLR-BLR", "BLR-NLR", "HYD-BLR", "BLR-HYD", "Chennai-BLR", "BLR-Chennai" };
 	final String[] amenity = { "AC", "Non-AC" };
 	String route;

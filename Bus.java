@@ -1,6 +1,9 @@
 package com.reg.collections.bus;
 
 import java.util.ArrayList;
+import java.util.Collections;
+//import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 public class Bus {
@@ -11,7 +14,6 @@ public class Bus {
 
 	public List<Bus> getDetails() {
 		List<Bus> bList = new ArrayList<>();
-
 		/* Creating Bus1 */
 		Bus b1 = new Bus();
 		b1.travelName = "Orange";
@@ -143,7 +145,7 @@ public class Bus {
 		b12.travelling.actype = "Non-AC";
 		b12.travelling.seatType = "Seater";
 		bList.add(b12);
-		
+
 		/* Creating Bus13 */
 		Bus b13 = new Bus();
 		b13.travelName = "Kaveri";
@@ -176,7 +178,7 @@ public class Bus {
 		b15.travelling.actype = "Non-AC";
 		b15.travelling.seatType = "Seater";
 		bList.add(b15);
-		
+
 		/* Creating Bus16 */
 		Bus b16 = new Bus();
 		b16.travelName = "Kesineni";
@@ -209,7 +211,7 @@ public class Bus {
 		b18.travelling.actype = "Non-AC";
 		b18.travelling.seatType = "Seater";
 		bList.add(b18);
-		
+
 		/* Creating Bus19 */
 		Bus b19 = new Bus();
 		b19.travelName = "APSRTC";
@@ -242,7 +244,7 @@ public class Bus {
 		b21.travelling.actype = "Non-AC";
 		b21.travelling.seatType = "Seater";
 		bList.add(b21);
-		
+
 		/* Creating Bus22 */
 		Bus b22 = new Bus();
 		b22.travelName = "KSRTC";
@@ -275,7 +277,31 @@ public class Bus {
 		b24.travelling.actype = "Non-AC";
 		b24.travelling.seatType = "Seater";
 		bList.add(b24);
-		
+
+//		Collections.sort(bList, new idSort());
+		Collections.sort(bList, new travelNameSort());
 		return bList;
 	}
+}
+class idSort implements Comparator<Bus>{ 
+
+	@Override
+	public int compare(Bus b1, Bus b2) {
+		
+		if (b1.idNo == b2.idNo) {
+			return 0;
+		} else if (b1.idNo > b2.idNo)
+			return 1;
+		else
+			return -1;
+	}
+}
+class travelNameSort implements Comparator<Bus>{
+
+	@Override
+	public int compare(Bus o1, Bus o2) {
+		
+		return o1.travelName.compareToIgnoreCase(o2.travelName);
+	}
+	
 }
