@@ -16,7 +16,7 @@ public class Bus {
 		List<Bus> bList = new ArrayList<>();
 		/* Creating Bus1 */
 		Bus b1 = new Bus();
-		b1.travelName = "Orange";
+		b1.travelName = new Travel().tList[0];
 		b1.idNo = 1234;
 		b1.regNo = "AP26AP";
 		b1.travelling = new Travel();
@@ -27,7 +27,7 @@ public class Bus {
 
 		/* Creating Bus2 */
 		Bus b2 = new Bus();
-		b2.travelName = "Orange";
+		b2.travelName = new Travel().tList[0];
 		b2.idNo = 2468;
 		b2.regNo = "AP09AP";
 		b2.travelling = new Travel();
@@ -38,7 +38,7 @@ public class Bus {
 
 		/* Creating Bus3 */
 		Bus b3 = new Bus();
-		b3.travelName = "Orange";
+		b3.travelName = new Travel().tList[0];
 		b3.idNo = 1359;
 		b3.regNo = "TN01TN";
 		b3.travelling = new Travel();
@@ -49,7 +49,7 @@ public class Bus {
 
 		/* Creating Bus4 */
 		Bus b4 = new Bus();
-		b4.travelName = "SRS";
+		b4.travelName = new Travel().tList[1];
 		b4.idNo = 1234;
 		b4.regNo = "AP26AP";
 		b4.travelling = new Travel();
@@ -60,7 +60,7 @@ public class Bus {
 
 		/* Creating Bus5 */
 		Bus b5 = new Bus();
-		b5.travelName = "SRS";
+		b5.travelName = new Travel().tList[1];
 		b5.idNo = 2468;
 		b5.regNo = "AP09AP";
 		b5.travelling = new Travel();
@@ -71,7 +71,7 @@ public class Bus {
 
 		/* Creating Bus6 */
 		Bus b6 = new Bus();
-		b6.travelName = "SRS";
+		b6.travelName = new Travel().tList[1];
 		b6.idNo = 1359;
 		b6.regNo = "TN01TN";
 		b6.travelling = new Travel();
@@ -82,7 +82,7 @@ public class Bus {
 
 		/* Creating Bus7 */
 		Bus b7 = new Bus();
-		b7.travelName = "Yatragenie";
+		b7.travelName = new Travel().tList[2];
 		b7.idNo = 1234;
 		b7.regNo = "AP26AP";
 		b7.travelling = new Travel();
@@ -93,7 +93,7 @@ public class Bus {
 
 		/* Creating Bus8 */
 		Bus b8 = new Bus();
-		b8.travelName = "Yatragenie";
+		b8.travelName = new Travel().tList[2];
 		b8.idNo = 2468;
 		b8.regNo = "AP09AP";
 		b8.travelling = new Travel();
@@ -104,7 +104,7 @@ public class Bus {
 
 		/* Creating Bus9 */
 		Bus b9 = new Bus();
-		b9.travelName = "Yatragenie";
+		b9.travelName = new Travel().tList[2];
 		b9.idNo = 1359;
 		b9.regNo = "TN01TN";
 		b9.travelling = new Travel();
@@ -115,7 +115,7 @@ public class Bus {
 
 		/* Creating Bus10 */
 		Bus b10 = new Bus();
-		b10.travelName = "Morning Star";
+		b10.travelName = new Travel().tList[3];
 		b10.idNo = 1234;
 		b10.regNo = "AP26AP";
 		b10.travelling = new Travel();
@@ -126,7 +126,7 @@ public class Bus {
 
 		/* Creating Bus11 */
 		Bus b11 = new Bus();
-		b11.travelName = "Morning Star";
+		b11.travelName = new Travel().tList[3];
 		b11.idNo = 2468;
 		b11.regNo = "AP09AP";
 		b11.travelling = new Travel();
@@ -137,7 +137,7 @@ public class Bus {
 
 		/* Creating Bus12 */
 		Bus b12 = new Bus();
-		b12.travelName = "Morning Star";
+		b12.travelName = new Travel().tList[3];
 		b12.idNo = 1359;
 		b12.regNo = "TN01TN";
 		b12.travelling = new Travel();
@@ -148,7 +148,7 @@ public class Bus {
 
 		/* Creating Bus13 */
 		Bus b13 = new Bus();
-		b13.travelName = "Kaveri";
+		b13.travelName = new Travel().tList[4];
 		b13.idNo = 1234;
 		b13.regNo = "AP26AP";
 		b13.travelling = new Travel();
@@ -159,7 +159,7 @@ public class Bus {
 
 		/* Creating Bus14 */
 		Bus b14 = new Bus();
-		b14.travelName = "Kaveri";
+		b14.travelName = new Travel().tList[4];
 		b14.idNo = 2468;
 		b14.regNo = "AP09AP";
 		b14.travelling = new Travel();
@@ -170,7 +170,7 @@ public class Bus {
 
 		/* Creating Bus15 */
 		Bus b15 = new Bus();
-		b15.travelName = "Kaveri";
+		b15.travelName = new Travel().tList[4];
 		b15.idNo = 1359;
 		b15.regNo = "TN01TN";
 		b15.travelling = new Travel();
@@ -181,7 +181,7 @@ public class Bus {
 
 		/* Creating Bus16 */
 		Bus b16 = new Bus();
-		b16.travelName = "Kesineni";
+		b16.travelName = new Travel().tList[5];
 		b16.idNo = 1234;
 		b16.regNo = "AP26AP";
 		b16.travelling = new Travel();
@@ -192,7 +192,7 @@ public class Bus {
 
 		/* Creating Bus17 */
 		Bus b17 = new Bus();
-		b17.travelName = "Kesineni";
+		b17.travelName = new Travel().tList[5];
 		b17.idNo = 2468;
 		b17.regNo = "AP09AP";
 		b17.travelling = new Travel();
@@ -203,7 +203,7 @@ public class Bus {
 
 		/* Creating Bus18 */
 		Bus b18 = new Bus();
-		b18.travelName = "Kesineni";
+		b18.travelName = new Travel().tList[5];
 		b18.idNo = 1359;
 		b18.regNo = "TN01TN";
 		b18.travelling = new Travel();
@@ -214,7 +214,7 @@ public class Bus {
 
 		/* Creating Bus19 */
 		Bus b19 = new Bus();
-		b19.travelName = "APSRTC";
+		b19.travelName = new Travel().tList[6];
 		b19.idNo = 1234;
 		b19.regNo = "AP26AP";
 		b19.travelling = new Travel();
@@ -225,7 +225,7 @@ public class Bus {
 
 		/* Creating Bus20 */
 		Bus b20 = new Bus();
-		b20.travelName = "APSRTC";
+		b20.travelName = new Travel().tList[6];
 		b20.idNo = 2468;
 		b20.regNo = "AP09AP";
 		b20.travelling = new Travel();
@@ -236,7 +236,7 @@ public class Bus {
 
 		/* Creating Bus21 */
 		Bus b21 = new Bus();
-		b21.travelName = "APSRTC";
+		b21.travelName = new Travel().tList[6];
 		b21.idNo = 1359;
 		b21.regNo = "TN01TN";
 		b21.travelling = new Travel();
@@ -247,7 +247,7 @@ public class Bus {
 
 		/* Creating Bus22 */
 		Bus b22 = new Bus();
-		b22.travelName = "KSRTC";
+		b22.travelName = new Travel().tList[7];
 		b22.idNo = 1234;
 		b22.regNo = "AP26AP";
 		b22.travelling = new Travel();
@@ -258,7 +258,7 @@ public class Bus {
 
 		/* Creating Bus23 */
 		Bus b23 = new Bus();
-		b23.travelName = "KSRTC";
+		b23.travelName = new Travel().tList[7];
 		b23.idNo = 2468;
 		b23.regNo = "AP09AP";
 		b23.travelling = new Travel();
@@ -269,7 +269,7 @@ public class Bus {
 
 		/* Creating Bus24 */
 		Bus b24 = new Bus();
-		b24.travelName = "KSRTC";
+		b24.travelName = new Travel().tList[7];
 		b24.idNo = 1359;
 		b24.regNo = "TN01TN";
 		b24.travelling = new Travel();
@@ -278,8 +278,8 @@ public class Bus {
 		b24.travelling.seatType = "Seater";
 		bList.add(b24);
 
-//		Collections.sort(bList, new idSort());
-		Collections.sort(bList, new travelNameSort());
+		Collections.sort(bList, new idSort());
+//		Collections.sort(bList, new travelNameSort());
 		return bList;
 	}
 }
